@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HelloWorld</string>
+    <string name="text_name">Kucing Mumu</string>
+    <string name="text_test">Kucing Mumu</string>
+    <string name="text_description">Saya adalah kucing yang lucu sekali dan suka makan ayam goreng.</string>
 </resources>

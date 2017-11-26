@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:weightSum="3">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/cat"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/ll_profile"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Kucing Mumu"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        />
+        android:orientation="vertical"
+        android:padding="@dimen/inner_padding">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Saya adalah kucing yang lucu sekali dan suka makan ayam goreng."
-        android:textSize="18sp"
-        android:textStyle="normal"
-        />
-</LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cat"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/description_top_margin"
+            android:text="@string/text_name"
+            android:textSize="@dimen/text_description"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/description_top_margin"
+            android:text="@string/text_description"
+            android:textSize="@dimen/text_description"
+            android:textStyle="normal"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonToastClick"
+            android:text="Show Toast"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonSnackbarClick"
+            android:text="Show Snackbar"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onButtonDialogClick"
+            android:text="Show Dialog"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+</ScrollView>

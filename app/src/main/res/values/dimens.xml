@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_width">250dp</dimen>
+    <dimen name="image_height">250dp</dimen>
+    <dimen name="inner_padding">16dp</dimen>
+    <dimen name="description_top_margin">8dp</dimen>
+    <dimen name="text_description">22sp</dimen>
+</resources>
