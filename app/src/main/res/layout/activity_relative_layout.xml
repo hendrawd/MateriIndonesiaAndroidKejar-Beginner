@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_merah"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:background="#F00"
+        android:text="Text Merah"/>
+
+    <TextView
+        android:id="@+id/tv_hijau"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@id/tv_merah"
+        android:background="#0F0"
+        android:text="Text Hijau"/>
+
+    <TextView
+        android:id="@+id/tv_biru"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#00F"
+        android:text="Text Biru"/>
+</RelativeLayout>
