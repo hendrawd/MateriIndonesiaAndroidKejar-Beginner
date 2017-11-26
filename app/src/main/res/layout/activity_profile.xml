@@ -59,5 +59,28 @@
             android:text="Show Dialog"
             android:textSize="30sp"
             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pindahActivity"
+            android:text="Pindah Activity"
+            android:textSize="30sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan angka"
+            android:id="@+id/et_angka"
+            android:inputType="number"
+            />
+
+        <Button
+            android:text="Show Angka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pindahActivityDenganData"
+            />
     </LinearLayout>
 </ScrollView>

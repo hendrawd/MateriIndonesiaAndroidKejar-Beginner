@@ -1,10 +1,12 @@
 package company.helloworld;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 //MainActivity = kelas
@@ -43,5 +45,19 @@ public class MainActivity extends AppCompatActivity {
                 .show();
     }
 
+    public void pindahActivity(View view) {
+        Intent keDetailActivity = new Intent(this, DetailActivity.class);
+        startActivity(keDetailActivity);
+        // sama aja dengan yang atas
+        // startActivity(new Intent(this, DetailActivity.class));
+    }
 
+    public void pindahActivityDenganData(View view) {
+        EditText editTextAngka = findViewById(R.id.et_angka);
+        String angka = editTextAngka.getText().toString();
+        Intent keDetailActivity = new Intent(this, DetailActivity.class);
+        //set data untuk activity lain
+        keDetailActivity.putExtra("data", angka);
+        startActivity(keDetailActivity);
+    }
 }
