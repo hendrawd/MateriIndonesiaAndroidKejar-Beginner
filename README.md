@@ -1,10 +1,26 @@
 # Recap:
 * Belajar tentang penggunaan dasar dari Android Studio
 * Belajar struktur project dari aplikasi Android
-* Belajar cara mencari dan download plugin di Android Studio(Preferences/Settings->Plugin)
+* Belajar cara mencari dan download plugin di Android Studio
+  * Masuk ke "Preferences"/"Settings"
+  * Masuk ke "Plugins"
 * Belajar cara membuat emulator di Android Studio
-* Belajar cara enable Developer Options dan USB debugging di device Android
+  * Klik pada tombol "AVD Manager" di bagian Toolbar Android Studio, sehingga window baru akan muncul
+  * Klik tombol "Create Virtual Device..." pada bagian bawah window tersebut
+  * Ikuti langkah-langkah selanjutnya dari window tersebut dan sesuaikan dengan pengaturan yang diinginkan
+* Belajar cara mengaktifkan "Developer options"/"Opsi pengembang"
+  * Masuk ke "Settings"/"Setelan"
+  * Masuk ke "About phone"/"Tentang ponsel"
+  * Klik 7x di "Build number"/"Nomor bentukan"
+  * Kemungkinan letak menu tidak selalu sama di tiap perangkat
+* Belajar cara mengaktifkan "Android debugging" di device Android
+  * Masuk ke "Settings"/"Setelan"
+  * Masuk ke "Developer Options"/"Opsi Pengembang"
+  * Klik ke "Android debugging"
+  * Kemungkinan letak menu tidak selalu sama di tiap perangkat
 * Belajar perbedaan ViewGroup dan View
+  * ViewGroup adalah komponen yang merupakan penampung dari View
+  * View adalah komponen terdepan untuk menampilkan apa yang kita inginkan ke pengguna
 * Belajar macam-macam ViewGroup, antara lain:
   * [FrameLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_frame_layout.xml)
   * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_linear_layout.xml)
