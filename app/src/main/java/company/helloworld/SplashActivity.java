@@ -21,8 +21,9 @@ public class SplashActivity extends Activity {
                                 MainActivity.class
                         );
                         startActivity(intentUntukPindahKeActivityUtama);
+                        finish();
                     }
-                }, 2_000
+                }, 5_000
         );
     }
 }
