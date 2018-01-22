@@ -22,9 +22,9 @@
   * ViewGroup adalah komponen yang merupakan penampung dari View
   * View adalah komponen terdepan untuk menampilkan apa yang kita inginkan ke pengguna
 * Belajar macam-macam ViewGroup, antara lain:
-  * [FrameLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_frame_layout.xml)
-  * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_linear_layout.xml)
-  * [RelativeLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_relative_layout.xml)
+  * [FrameLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_frame_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap FrameLayout itu sendiri.
+  * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_linear_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal.
+  * [RelativeLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_relative_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap RelativeLayout itu sendiri maupun terhadap View yang lain.
 * Belajar macam-macam View, antara lain:
   * [TextView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L21)
   * [ImageView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_image_view.xml)
