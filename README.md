@@ -13,10 +13,10 @@
   * Masuk ke "About phone"/"Tentang ponsel"
   * Klik 7x di "Build number"/"Nomor bentukan"
   * Kemungkinan letak menu tidak selalu sama di tiap perangkat
-* Belajar cara mengaktifkan "Android debugging" di device Android
+* Belajar cara mengaktifkan "USB debugging"/"Android debugging" di device Android
   * Masuk ke "Settings"/"Setelan"
   * Masuk ke "Developer Options"/"Opsi Pengembang"
-  * Klik ke "Android debugging"
+  * Klik ke "USB debugging"/"Android debugging"
   * Kemungkinan letak menu tidak selalu sama di tiap perangkat
 * Belajar perbedaan ViewGroup dan View
   * ViewGroup adalah komponen yang merupakan penampung dari View
