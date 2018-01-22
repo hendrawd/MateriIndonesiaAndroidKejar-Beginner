@@ -33,7 +33,7 @@
 * Belajar penggunaan [ScrollView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L2), supaya layout yang dibuat dapat discroll
 * Belajar cara meng-extract string ke [strings.xml](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/values/strings.xml) dan dimension ke [dimens.xml](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/values/dimens.xml) dan menggunakannya di layout
 * Mencoba untuk membuat layout user profile sendiri
-* Pengenalan Object Oriented Programming menggunakan bahasa pemrograman Java
+* Pengenalan Object Oriented Programming menggunakan bahasa pemrograman Java([how](https://github.com/hendrawd/MateriIndonesiaAndroidKejar-Beginner/tree/master/app/src/main/java/company/helloworld/oop))
 * Belajar cara untuk membuat interaksi ketika Button diklik dari file XML([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L42))
 * Belajar cara untuk menangani interaksi Button click di file Java([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L25))
 * Belajar cara untuk import external library([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/build.gradle#L28))
