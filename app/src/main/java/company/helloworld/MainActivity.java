@@ -60,4 +60,20 @@ public class MainActivity extends AppCompatActivity {
         keDetailActivity.putExtra("data", angka);
         startActivity(keDetailActivity);
     }
+
+    public void openVerticalLinearLayoutExample(View view) {
+        startActivity(new Intent(this, VerticalLinearLayoutExampleActivity.class));
+    }
+
+    public void openHorizontalLinearLayoutExample(View view) {
+        startActivity(new Intent(this, HorizontalLinearLayoutExampleActivity.class));
+    }
+
+    public void openFrameLayoutExample(View view) {
+        startActivity(new Intent(this, FrameLayoutExampleActivity.class));
+    }
+
+    public void openRelativeLayoutExample(View view) {
+        startActivity(new Intent(this, RelativeLayoutExampleActivity.class));
+    }
 }

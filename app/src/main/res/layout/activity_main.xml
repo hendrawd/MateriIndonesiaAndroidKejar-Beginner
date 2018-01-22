@@ -41,7 +41,6 @@
             android:layout_height="wrap_content"
             android:onClick="onButtonToastClick"
             android:text="Show Toast"
-            android:textSize="30sp"
             />
 
         <Button
@@ -49,7 +48,6 @@
             android:layout_height="wrap_content"
             android:onClick="onButtonSnackbarClick"
             android:text="Show Snackbar"
-            android:textSize="30sp"
             />
 
         <Button
@@ -57,7 +55,6 @@
             android:layout_height="wrap_content"
             android:onClick="onButtonDialogClick"
             android:text="Show Dialog"
-            android:textSize="30sp"
             />
 
         <Button
@@ -65,22 +62,49 @@
             android:layout_height="wrap_content"
             android:onClick="pindahActivity"
             android:text="Pindah Activity"
-            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openVerticalLinearLayoutExample"
+            android:text="Vertical LinearLayout"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openHorizontalLinearLayoutExample"
+            android:text="Horizontal LinearLayout"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openFrameLayoutExample"
+            android:text="FrameLayout"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openRelativeLayoutExample"
+            android:text="RelativeLayout"
             />
 
         <EditText
+            android:id="@+id/et_angka"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Masukkan angka"
-            android:id="@+id/et_angka"
             android:inputType="number"
             />
 
         <Button
-            android:text="Show Angka"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="pindahActivityDenganData"
+            android:text="Show Angka"
             />
     </LinearLayout>
 </ScrollView>
