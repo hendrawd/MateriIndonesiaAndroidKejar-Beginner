@@ -6,6 +6,7 @@
   * Masuk ke "Plugins"
 * Belajar cara membuat emulator di Android Studio
   * Klik pada tombol "AVD Manager" di bagian Toolbar Android Studio, sehingga window baru akan muncul
+  ![avd manager location](https://user-images.githubusercontent.com/9481791/35210217-eeb23d8c-ff83-11e7-8016-0a750be958aa.png)
   * Klik tombol "Create Virtual Device..." pada bagian bawah window tersebut
   * Ikuti langkah-langkah selanjutnya dari window tersebut dan sesuaikan dengan pengaturan yang diinginkan
 * Belajar cara mengaktifkan "Developer options"/"Opsi pengembang"
