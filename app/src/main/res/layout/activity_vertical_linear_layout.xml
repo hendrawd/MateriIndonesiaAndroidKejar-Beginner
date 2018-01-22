@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal-->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -7,22 +8,21 @@
     >
     <!--orientation bisa vertical/horizontal-->
 
-    <TextView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#0F0"
-        android:text="Text Hijau"/>
+        />
 
-    <TextView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#F00"
-        android:text="Text Merah"/>
+        />
 
-
-    <TextView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#00F"
-        android:text="Text Biru"/>
+        />
 </LinearLayout>

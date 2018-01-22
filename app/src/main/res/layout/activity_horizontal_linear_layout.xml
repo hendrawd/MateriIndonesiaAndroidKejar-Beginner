@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap FrameLayout itu sendiri-->
-<FrameLayout
+<!--ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal-->
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     >
+    <!--orientation bisa vertical/horizontal-->
 
-    <!--View berada di tengah, horizontal-->
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_gravity="center_horizontal"
-        android:background="#F00"
-        />
-
-    <!--View berada di bawah-->
-    <View
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="bottom"
         android:background="#0F0"
         />
 
-    <!--View berada di atas-->
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_gravity="top"
+        android:background="#F00"
+        />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#00F"
         />
-</FrameLayout>
+</LinearLayout>

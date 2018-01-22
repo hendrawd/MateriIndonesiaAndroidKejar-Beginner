@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap RelativeLayout itu sendiri maupun terhadap View yang lain-->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
 
-    <TextView
-        android:id="@+id/tv_merah"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+    <!--View yang ada di tengah parent-->
+    <View
+        android:id="@+id/v_merah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerInParent="true"
         android:background="#F00"
-        android:text="Text Merah"/>
+        />
 
-    <TextView
-        android:id="@+id/tv_hijau"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_toRightOf="@id/tv_merah"
+    <!--View yang berada di sebelah kanan View dengan id v_merah-->
+    <View
+        android:id="@+id/v_hijau"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/v_merah"
         android:background="#0F0"
-        android:text="Text Hijau"/>
+        />
 
-    <TextView
-        android:id="@+id/tv_biru"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+    <!--View yang berada di sebelah bawah parent dan align kanan parent-->
+    <View
+        android:id="@+id/v_biru"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:background="#00F"
-        android:text="Text Biru"/>
+        />
 </RelativeLayout>
