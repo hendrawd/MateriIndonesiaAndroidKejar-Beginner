@@ -88,9 +88,9 @@ Solusi:
 
 ![screen shot 2016-12-05 at 12 15 35 pm](https://cloud.githubusercontent.com/assets/9481791/20874546/81556d06-bae5-11e6-8aca-6e6dda331079.png)
 
-Kalau ada masalah lain, silakan buat issue baru di sini atau email saya secara langsung di hendraz_88@yahoo.co.id
-
 ## ☞ Error ketika Run/menjalankan project
 
 Silakan refresh gradle projects yang ada di
 ![screen shot 2018 01 22 at 13 52 37](https://user-images.githubusercontent.com/9481791/35208686-23a3b000-ff7c-11e7-8e3c-2a1c203cee65.png)
+
+Kalau ada masalah lain, silakan buat issue baru di sini atau email saya secara langsung di hendraz_88@yahoo.co.id
