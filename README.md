@@ -27,15 +27,15 @@
   * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_linear_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal.
   * [RelativeLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_relative_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap RelativeLayout itu sendiri maupun terhadap View yang lain.
 * Belajar macam-macam View yang sering dipakai, antara lain:
-  * [TextView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L21) adalah View yang digunakan untuk menampilkan text.
+  * [TextView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_main.xml#L21) adalah View yang digunakan untuk menampilkan text.
   * [ImageView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_image_view.xml) adalah View yang digunakan untuk menampilkan gambar.
-  * [Button](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L39) adalah View yang digunakan untuk menampilkan tombol.
-  * [EditText](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L71) adalah View yang digunakan untuk menerima input dari user berupa text, termasuk angka dan karakter.
-* Belajar penggunaan [ScrollView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L2), supaya layout yang dibuat dapat discroll
+  * [Button](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_main.xml#L39) adalah View yang digunakan untuk menampilkan tombol.
+  * [EditText](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_main.xml#L71) adalah View yang digunakan untuk menerima input dari user berupa text, termasuk angka dan karakter.
+* Belajar penggunaan [ScrollView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_main.xml#L2), supaya layout yang dibuat dapat discroll
 * Belajar cara meng-extract string ke [strings.xml](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/values/strings.xml) dan dimension ke [dimens.xml](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/values/dimens.xml) dan menggunakannya di layout
 * Mencoba untuk membuat layout user profile sendiri
 * Pengenalan Object Oriented Programming menggunakan bahasa pemrograman Java([how](https://github.com/hendrawd/MateriIndonesiaAndroidKejar-Beginner/tree/master/app/src/main/java/company/helloworld/oop))
-* Belajar cara untuk membuat interaksi ketika Button diklik dari file XML([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L42))
+* Belajar cara untuk membuat interaksi ketika Button diklik dari file XML([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_main.xml#L42))
 * Belajar cara untuk menangani interaksi Button click di file Java([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L25))
 * Belajar cara untuk import external library([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/build.gradle#L28))
 * Belajar cara untuk menampilkan pesan di Android device menggunakan [Toast](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L32), [AlertDialog](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L43), [Snackbar](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L37)
