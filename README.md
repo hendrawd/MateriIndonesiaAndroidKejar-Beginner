@@ -24,7 +24,7 @@
   * View adalah komponen terdepan untuk menampilkan apa yang kita inginkan ke pengguna
 * Belajar macam-macam ViewGroup yang sering dipakai, antara lain:
   * [FrameLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_frame_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap FrameLayout itu sendiri.
-  * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_linear_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal.
+  * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_vertical_linear_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal.
   * [RelativeLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_relative_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap RelativeLayout itu sendiri maupun terhadap View yang lain.
 * Belajar macam-macam View yang sering dipakai, antara lain:
   * [TextView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_main.xml#L21) adalah View yang digunakan untuk menampilkan text.
