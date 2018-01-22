@@ -21,15 +21,15 @@
 * Belajar perbedaan ViewGroup dan View
   * ViewGroup adalah komponen yang merupakan penampung dari View
   * View adalah komponen terdepan untuk menampilkan apa yang kita inginkan ke pengguna
-* Belajar macam-macam ViewGroup, antara lain:
+* Belajar macam-macam ViewGroup yang sering dipakai, antara lain:
   * [FrameLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_frame_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap FrameLayout itu sendiri.
   * [LinearLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_linear_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya secara urut baik vertical ataupun horizontal.
   * [RelativeLayout](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_relative_layout.xml) adalah ViewGroup yang dapat memposisikan View di dalamnya relatif terhadap RelativeLayout itu sendiri maupun terhadap View yang lain.
-* Belajar macam-macam View, antara lain:
-  * [TextView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L21)
-  * [ImageView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_image_view.xml)
-  * [Button](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L39)
-  * [EditText](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L71)
+* Belajar macam-macam View yang sering dipakai, antara lain:
+  * [TextView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L21) adalah View yang digunakan untuk menampilkan text.
+  * [ImageView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_image_view.xml) adalah View yang digunakan untuk menampilkan gambar.
+  * [Button](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L39) adalah View yang digunakan untuk menampilkan tombol.
+  * [EditText](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L71) adalah View yang digunakan untuk menerima input dari user berupa text, termasuk angka dan karakter.
 * Belajar penggunaan [ScrollView](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/layout/activity_profile.xml#L2), supaya layout yang dibuat dapat discroll
 * Belajar cara meng-extract string ke [strings.xml](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/values/strings.xml) dan dimension ke [dimens.xml](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/res/values/dimens.xml) dan menggunakannya di layout
 * Mencoba untuk membuat layout user profile sendiri
