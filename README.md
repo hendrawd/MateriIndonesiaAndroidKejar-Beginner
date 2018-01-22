@@ -39,8 +39,8 @@
 * Belajar cara untuk import external library([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/build.gradle#L28))
 * Belajar cara untuk menampilkan pesan di Android device menggunakan [Toast](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L32), [AlertDialog](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L43), [Snackbar](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L37)
 * Belajar cara membuat Activity baru di Android Studio(File->New->Activity)
-* Belajar cara pindah Activity([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L48))
-* Belajar cara pindah Activity dengan membawa data dari Activity sebelumnya([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L55))
+* Belajar cara menjalankan Activity baru([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L48))
+* Belajar cara menjalankan Activity baru dengan membawa data dari Activity sebelumnya([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L55))
 * Belajar cara mendapatkan data yang dipassing dari Activity sebelumnya([how](https://github.com/hendrawd/iak3.3_beginner_pertemuan1/blob/master/app/src/main/java/company/helloworld/DetailActivity.java#L15))
 * ~~Belajar nyayi dan joget Baby Shark~~
 
