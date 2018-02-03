@@ -9,11 +9,11 @@ Solusi:
 * Silakan download JDK8 versi terbaru yang sesuai dengan Sistem Operasi yang kamu pakai di http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Install JDK tersebut ke komputer kamu
 * Buka proyek ini dengan Android Studio
-* Buka File>Project Structure>SDK Location
+* Buka **File**>**Project Structure**>**SDK Location**
 
 ![screen shot 2016-12-05 at 12 15 58 pm](https://cloud.githubusercontent.com/assets/9481791/20874547/83b71e14-bae5-11e6-944b-b7f4677a0cf2.png)
 
-* Hapus centang "Use embedded JDK (recommended)"
+* Hapus centang **Use embedded JDK (recommended)**
 
 ![screen shot 2016-12-05 at 12 34 47 pm](https://cloud.githubusercontent.com/assets/9481791/20874695/e1fd774c-bae6-11e6-9122-a05792e23ad9.png)
 
@@ -35,7 +35,7 @@ Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=256m; support wa
 
 Solusi:
 
-* Buka Project structure>Android>Gradle Scripts>gradle.properties
+* Buka **Project structure**>**Android**>**Gradle Scripts**>**gradle.properties**
 * Temukan `org.gradle.jvmargs=-Xmx1536m` dan coba untuk mengurangi nilainya, seperti `org.gradle.jvmargs=-Xmx256m`
 
 ![screen shot 2016-12-05 at 12 15 35 pm](https://cloud.githubusercontent.com/assets/9481791/20874546/81556d06-bae5-11e6-8aca-6e6dda331079.png)
