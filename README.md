@@ -43,6 +43,7 @@
 * Belajar cara menjalankan Activity baru([how](https://github.com/hendrawd/MateriIndonesiaAndroidKejar-Beginner/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L48))
 * Belajar cara menjalankan Activity baru dengan membawa data dari Activity sebelumnya([how](https://github.com/hendrawd/MateriIndonesiaAndroidKejar-Beginner/blob/master/app/src/main/java/company/helloworld/MainActivity.java#L55))
 * Belajar cara mendapatkan data yang dipassing dari Activity sebelumnya([how](https://github.com/hendrawd/MateriIndonesiaAndroidKejar-Beginner/blob/master/app/src/main/java/company/helloworld/DetailActivity.java#L21))
+* Belajar cara membuat file apk versi debug([how](https://github.com/hendrawd/MateriIndonesiaAndroidKejar-Beginner/blob/master/app/learn/HowToBuildDebugAPK.md))
 * ~~Belajar nyayi dan joget Baby Shark~~
 
 Pastikan kamu mempunyai koneksi internet yang stabil untuk menjalankan proyek ini. Android Studio akan butuh untuk mendownload build tool, Android SDK atau mungkin dependency yang lain melalui internet.
