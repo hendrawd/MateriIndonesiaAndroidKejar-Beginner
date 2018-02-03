@@ -45,4 +45,4 @@ Solusi:
 Silakan refresh gradle projects dengan tutorial yang ada di gambar berikut
 ![screen shot 2018 01 22 at 13 52 37](https://user-images.githubusercontent.com/9481791/35208686-23a3b000-ff7c-11e7-8e3c-2a1c203cee65.png)
 
-Kalau ada masalah lain, silakan buat issue baru di sini atau email saya secara langsung di hendraz_88@yahoo.co.id
+## ☞ Kalau ada masalah lain, silakan buat issue baru di sini atau email saya secara langsung di hendraz_88@yahoo.co.id
